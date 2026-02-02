@@ -3,34 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Branding - Echa Aulia</title>
+    <title>Portofolio - [Echa Aulia]</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header class="hero">
-            <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-pic"> <!-- Ganti dengan URL foto Anda -->
-            <h1>[Nama Lengkap Anda]</h1>
-            <p class="tagline">Developer | Designer | Innovator</p> <!-- Ganti dengan tagline Anda -->
-            <p class="bio">Saya adalah seorang pengembang web yang passionate tentang teknologi, selain itu saya juga menekankan kreativitas dan
-              inovasi dalam membangun web (Crafting Digital Dreams).</-p>
-            <div class="social-links">
-                <a href="https://echa.github.com/ target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/[username-linkedin-anda]" target="_blank">LinkedIn</a>
-                <a href="mailto:email@echaaulia260208.com">Email</a>
+    <header>
+        <nav>
+            <div class="logo">[Echa Aulia]</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="hero">
+        <img src="assets/profile.jpg" alt="Foto Profil" class="profile-pic">
+        <h1>[Echa Auliatun Nisya]</h1>
+        <p class="tagline">Pengembang Web | Desainer UI/UX</p>
+        <p class="bio">Saya adalah pengembang web yang passionate tentang menciptakan pengalaman digital yang indah dan fungsional
+            . Dengan pengalaman di HTML, CSS, dan JavaScript, Menekankan kreativitas dan inovasi dalam membangun web (Crafting Digital Dreams),
+            saya siap membantu mewujudkan ide Anda.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Proyek Unggulan</h2>
+        <div class="project-grid">
+            <div class="project-item">
+                <img src="assets/project1.jpg" alt="Proyek 1">
+                <h3>Website E-Commerce</h3>
+                <p>Platform belanja online responsif dengan integrasi pembayaran. Dibangun menggunakan HTML, CSS, dan JavaScript.</p>
+                <a href="#" class="btn">Lihat Detail</a>
             </div>
-        </header>
-        
-        <section class="repos" id="repos">
-            <h2>Repositori Unggulan</h2>
-            <div id="repo-list"></div>
-        </section>
-        
-        <footer>
-            <p>&copy; 2026 Echa Aulia. Dibuat dengan ❤️ menggunakan GitHub Pages.</p>
-        </footer>
-    </div>
-    <script src="script.js"></script>
+            <div class="project-item">
+                <img src="assets/project2.jpg" alt="Proyek 2">
+                <h3>Aplikasi To-Do List</h3>
+                <p>Aplikasi web sederhana untuk mengelola tugas harian. Menggunakan React.js untuk interaktivitas.</p>
+                <a href="#" class="btn">Lihat Detail</a>
+            </div>
+            <div class="project-item">
+                <img src="assets/project3.jpg" alt="Proyek 3">
+                <h3>Portfolio Website</h3>
+                <p>Website portofolio seperti ini, dengan desain elegan dan responsif. Dibuat murni dengan HTML dan CSS.</p>
+                <a href="#" class="btn">Lihat Detail</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Hubungi Saya</h2>
+        <p>Email: email@echaaulia260208.com | LinkedIn: linkedin.com/in/username | GitHub: github.com/username</p>
+        <form>
+            <input type="text" placeholder="Nama Anda" required>
+            <input type="email" placeholder="Email Anda" required>
+            <textarea placeholder="Pesan Anda" required></textarea>
+            <button type="submit" class="btn">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 [Echa Auliatun Nisya]. Semua hak dilindungi.</p>
+    </footer>
 </body>
 </html>
